@@ -60,7 +60,7 @@ Step 1: Clone and Set Up the Repository
 
 Clone this repository:
 
-    git clone [https://github.com/sunidhimishra17/My-Task-Manager.git](https://github.com/sunidhimishra17/My-Task-Manager.git)
+    git clone [https://github.com/sunidhimishra17/My-Task-Manager.git]
 
 Navigate into the project root:
 
@@ -129,3 +129,12 @@ The backend exposes the following clean RESTful routes for interaction:
 5. PUT/PATCH-> /api/tasks/<id>/-> Update an existing task
 
 6. DELETE-> /api/tasks/<id>/-> Delete a specific task
+
+
+| HTTP Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| **GET** | `/api/tasks/` | Fetch all tasks |
+| **POST** | `/api/tasks/` | Create a new task |
+| **GET** | `/api/tasks/<id>/` | Fetch details of a specific task |
+| **PUT/PATCH** | `/api/tasks/<id>/` | Update an existing task |
+| **DELETE** | `/api/tasks/<id>/` | Delete a specific task |

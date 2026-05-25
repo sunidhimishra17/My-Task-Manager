@@ -68,43 +68,43 @@ Step 1: Clone and Set Up the Repository
 
 Clone this repository:
 
-git clone [https://github.com/sunidhimishra17/My-Task-Manager.git](https://github.com/sunidhimishra17/My-Task-Manager.git)
+    git clone [https://github.com/sunidhimishra17/My-Task-Manager.git](https://github.com/sunidhimishra17/My-Task-Manager.git)
 
 Navigate into the project root:
 
-cd My-Task-Manager
+    cd My-Task-Manager
 
 Step 2: Backend Setup (Django)
 
 Navigate to the backend directory:
 
-cd backend
+    cd backend
 
 Create a virtual environment:
 
-python -m venv venv
+    python -m venv venv
 
 Activate the virtual environment
 
 On Windows:
 
-venv\Scripts\activate
+    venv\Scripts\activate
 
 On macOS/Linux:
 
-source venv/bin/activate
+    source venv/bin/activate
 
 Install backend dependencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run migrations to set up the database
 
-python manage.py migrate
+    python manage.py migrate
 
 Start the Django development server
 
-python manage.py runserver
+    python manage.py runserver
 
 Step 3: Frontend Setup (React)
 
@@ -112,28 +112,28 @@ Open a new terminal window/tab:
 
 Navigate to the frontend directory:
 
-cd frontend
+    cd frontend
 
 Install npm packages:
 
-npm install
+    npm install
 
 Start the React development server:
 
-npm start
+    npm start
 
 ## API Endpoints Reference
 
 The backend exposes the following clean RESTful routes for interaction:
 
-HTTP Method-> Endpoint -> Description
+1. HTTP Method-> Endpoint -> Description
 
-GET-> /api/tasks/-> Fetch all tasks 
+2. GET-> /api/tasks/-> Fetch all tasks 
 
-POST-> /api/tasks/-> Create a new task
+3. POST-> /api/tasks/-> Create a new task
 
-GET-> /api/tasks/<id>/-> Fetch details of a specific task
+4. GET-> /api/tasks/<id>/-> Fetch details of a specific task
 
-PUT/PATCH-> /api/tasks/<id>/-> Update an existing task
+5. PUT/PATCH-> /api/tasks/<id>/-> Update an existing task
 
-DELETE-> /api/tasks/<id>/-> Delete a specific task
+6. DELETE-> /api/tasks/<id>/-> Delete a specific task

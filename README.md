@@ -4,7 +4,7 @@ A full-stack task management web application built with Python (Django REST Fram
 
 A robust, enterprise-grade Task Management Web Application designed to streamline workflows and track daily activities. This project features a secure, scalable Django REST Framework (DRF) backend paired with an interactive, responsive React.js frontend. 
 
-## 🎯 Key Features
+## Key Features
 
 1. Full CRUD Operations: Seamlessly Create, Read, Update, and Delete tasks with real-time state updates.
 
@@ -16,7 +16,7 @@ A robust, enterprise-grade Task Management Web Application designed to streamlin
  
 5. Robust Exception Handling: Graceful error catching on both server and client sides to ensure a smooth user experience.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 Frontend
 
@@ -34,9 +34,8 @@ Backend
 
 3. SQLite / PostgreSQL (Relational database mapping)
 
-## 🏗️ Project Architecture
+## Project Architecture
 
-```text
 ├── backend/               # Django Backend Application
 │   ├── manage.py          # Django CLI utility
 │   ├── core/              # Main project configuration (settings, URLs)
@@ -46,3 +45,87 @@ Backend
 │   ├── public/            # Static assets
 │   └── src/               # React components, styles, and API routing
 └── README.md
+
+## Prerequisites 
+
+1. Python installed
+
+2. Node.js installed
+
+3. Git installed
+
+## Steps 
+
+# Step 1: Clone and Set Up the Repository
+
+Clone this repository:
+
+git clone [https://github.com/sunidhimishra17/My-Task-Manager.git](https://github.com/sunidhimishra17/My-Task-Manager.git)
+
+Navigate into the project root:
+
+cd My-Task-Manager
+
+# Step 2: Backend Setup (Django)
+
+Navigate to the backend directory:
+
+cd backend
+
+Create a virtual environment:
+
+python -m venv venv
+
+# Activate the virtual environment
+
+# On Windows:
+
+venv\Scripts\activate
+
+# On macOS/Linux:
+
+source venv/bin/activate
+
+# Install backend dependencies
+
+pip install -r requirements.txt
+
+# Run migrations to set up the database
+
+python manage.py migrate
+
+# Start the Django development server
+
+python manage.py runserver
+
+# Step 3: Frontend Setup (React)
+
+Open a new terminal window/tab:
+
+Navigate to the frontend directory:
+
+cd frontend
+
+Install npm packages:
+
+npm install
+
+Start the React development server:
+
+npm start
+
+## API Endpoints Reference
+
+The backend exposes the following clean RESTful routes for interaction:
+
+HTTP Method-> Endpoint -> Description
+
+GET-> /api/tasks/-> Fetch all tasks 
+
+POST-> /api/tasks/-> Create a new task
+
+GET-> /api/tasks/<id>/-> Fetch details of a specific task
+
+PUT/PATCH-> /api/tasks/<id>/-> Update an existing task
+
+DELETE-> /api/tasks/<id>/-> Delete a specific task

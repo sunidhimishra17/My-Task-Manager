@@ -37,13 +37,21 @@ Backend
 ## Project Architecture
 
 ├── backend/               # Django Backend Application
+
 │   ├── manage.py          # Django CLI utility
+
 │   ├── core/              # Main project configuration (settings, URLs)
+
 │   └── api/               # Task application (models, views, serializers)
+
 │
+
 ├── frontend/              # React Frontend Application
+
 │   ├── public/            # Static assets
+
 │   └── src/               # React components, styles, and API routing
+
 └── README.md
 
 ## Prerequisites 

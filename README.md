@@ -36,8 +36,6 @@ Backend
 
 ## Project Architecture
 
-text ...
-
     ├── backend/               # Django Backend Application
     │   ├── manage.py          # Django CLI utility
     │   ├── core/              # Main project configuration (settings, URLs)

@@ -64,7 +64,7 @@ Backend
 
 ## Steps 
 
-# Step 1: Clone and Set Up the Repository
+## Step 1: Clone and Set Up the Repository
 
 Clone this repository:
 
@@ -74,7 +74,7 @@ Navigate into the project root:
 
 cd My-Task-Manager
 
-# Step 2: Backend Setup (Django)
+## Step 2: Backend Setup (Django)
 
 Navigate to the backend directory:
 
@@ -84,29 +84,29 @@ Create a virtual environment:
 
 python -m venv venv
 
-# Activate the virtual environment
+## Activate the virtual environment
 
-# On Windows:
+## On Windows:
 
 venv\Scripts\activate
 
-# On macOS/Linux:
+## On macOS/Linux:
 
 source venv/bin/activate
 
-# Install backend dependencies
+## Install backend dependencies
 
 pip install -r requirements.txt
 
-# Run migrations to set up the database
+## Run migrations to set up the database
 
 python manage.py migrate
 
-# Start the Django development server
+## Start the Django development server
 
 python manage.py runserver
 
-# Step 3: Frontend Setup (React)
+## Step 3: Frontend Setup (React)
 
 Open a new terminal window/tab:
 

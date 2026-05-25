@@ -118,19 +118,6 @@ Start the React development server:
 
 The backend exposes the following clean RESTful routes for interaction:
 
-1. HTTP Method-> Endpoint -> Description
-
-2. GET-> /api/tasks/-> Fetch all tasks 
-
-3. POST-> /api/tasks/-> Create a new task
-
-4. GET-> /api/tasks/<id>/-> Fetch details of a specific task
-
-5. PUT/PATCH-> /api/tasks/<id>/-> Update an existing task
-
-6. DELETE-> /api/tasks/<id>/-> Delete a specific task
-
-
 | HTTP Method | Endpoint | Description |
 | :--- | :--- | :--- |
 | **GET** | `/api/tasks/` | Fetch all tasks |
